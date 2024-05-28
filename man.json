@@ -1,0 +1,9 @@
+{
+  "exit": "NAME\n\texit\nSYNOPSIS\n\tExits the program\nDESCRIPTION\n\tThe exit command is used to exit the program.\nOPTIONS\n\tNone.\nARGUMENTS\n\tNone.\nEXAMPLES\n\tTo exit the program:\n\t\texit",
+  "pwd": "NAME\n\tpwd\nSYNOPSIS\n\tPrints current working directory\nDESCRIPTION\n\tpwd will print the current working directory.\n\tA '$' indicates that the current working directory is within the vault.\n\tA '~' or '/' indicates that the current directory is a system path.\n\t'~' indicates that the current directory is relative to the vault root.\nOPTIONS\n\tNone.\nARGUMENTS\n\tNone.\nEXAMPLES\n\tTo find current directory:\n\t\tpwd",
+  "sudo": "NAME\n\tsudo\nSYNOPSIS\n\tRuns command with authenticated access\nDESCRIPTION\n\tThe following command runs with elevated privilege\nOPTIONS\n\tNone.\nARGUMENTS\n\tthe command and its arguments\nEXAMPLES\n\tchange password:\n\t\tsudo set --password",
+  "help": "NAME\n\thelp\nSYNOPSIS\n\tPrints a help screen\nDESCRIPTION\n\tPrints a list of commands that can be run\nOPTIONS\n\tNone.\nARGUMENTS\n\tNone.\nEXAMPLES\n\tTo print help\n\t\thelp",
+  "man": "NAME\n\tman\nSYNOPSIS\n\tPrints manual page for the command\nDESCRIPTION\n\tWell well well, you used man on man...\n\twhich means you must already know how to use man\n\twhich is just a waste for everyone involved\nOPTIONS\n\tNone.\nARGUMENTS\n\tthe command to view man page of\nEXAMPLES\n\tTo see this page (super useful right?)\n\t\tman man",
+  "lock": "NAME\n\tlock\nSYNOPSIS\n\tLocks the vault\nDESCRIPTION\n\tClears screen and invalidates recent password login, login now required\nOPTIONS\n\tNone.\nARGUMENTS\n\tNone.\nEXAMPLES\n\tTo lock the vault:\n\t\tlock"
+}
+

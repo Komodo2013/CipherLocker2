@@ -1,0 +1,26 @@
+# TODO: fix broken vaults in config.json
+# TODO: Password timeout setting
+# TODO: backwards version compat
+# TODO: recovery OTP
+
+# TODO: add functions:
+#  set --timeout --password --pin --2fa (vault settings manipulation)
+#  flag /path --sudo --private --hidden --clutter (flags are invisible normally, sudo=password, private=pin)
+#  ls /path --show-hidden --show-flags --show-details --as-array(list) - side quest... enable vault_ui complete with ls
+#  mkdir /path --create-parents (create dir)
+#  cd /path (change pwd)
+#  import /source_path /path (encrypt and save to path)
+#  stat /path (shows file info)
+#  find /path --string --pattern (search file names)
+#  mv /source_path /path (move file or folder)
+#  rm --interactive --no-preserve-root -r (remove file or folder)
+#  export /path /destination_path (decrypt and save to path)
+#  cat /path (print to term)
+#  grep /path --string --pattern --extension --only-path (search file contents, requires pin minimum)
+#  touch /path (create blank file)
+#  open /path --program /path (open decrypted file with text editor or program)
+#  clutter /path number --no-flag (creates a bunch of files marked with flag 'clutter' to fill the directory)
+#  piping with |
+
+# TODO: fix authenticate so that someone can't delete __last_pass and get access
+# TODO: add GUI components
